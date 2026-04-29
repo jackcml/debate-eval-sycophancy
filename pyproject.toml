@@ -1,0 +1,9 @@
+[project]
+name = "debate-eval-sycophancy"
+version = "0.1.0"
+description = "Evaluating effects of user identification in LLM debate evaluation"
+requires-python = ">=3.11"
+dependencies = ["polars", "openai", "dotenv"]
+
+[dependency-groups]
+dev = ["mypy", "black"]
